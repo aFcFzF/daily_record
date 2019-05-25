@@ -21,6 +21,6 @@
 * [零散的知识点](README.md)
     * [关于promise](./tech/promise.md)
 * [algorithm](./algorithm/readme.md)
-    * [简单-sortedToBST](./algorithm/sortedToBST.md)
+    * [[简单]sortedToBST](./algorithm/sortedToBST.md)
 
 
