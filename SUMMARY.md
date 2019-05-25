@@ -20,5 +20,6 @@
     * [2019-05-17](./week/2019-05-17.md)
 * [零散的知识点](README.md)
     * [关于promise](./tech/promise.md)
+* [algorithm](./algorithm/readme.md)
 
 
