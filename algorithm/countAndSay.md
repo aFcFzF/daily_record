@@ -8,17 +8,18 @@
 ```
 
 ``` js
+// '1121'
 countAndSay = n => {
     let s = '1';
 	if (n === 1) return s;
-	let r = '';
-    let l = 0;
+	let r, l, j;
     while(--n) {
         const last = s.length - 1;
-        let j = l;
+		r = '';
+        l = j = 0; 
         while(l <= last) {
             const char = s[l++];
-            (char !== s[l] || (l - 1) === last) && (r += l - j + char, j = l);
+            (char !== s[l] || l - 1 === last) && (r += l - j + char, j = l); 
         }
 		s = r;
     }
