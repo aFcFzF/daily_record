@@ -24,5 +24,6 @@
     * [[简单]sortedToBST](./algorithm/sortedToBST.md)
     * [[简单]countAndSay](./algorithm/countAndSay.md)
     * [[简单]happyNumber](./algorithm/happyNumber.md)
+    * [[简单]isomorphicStrings](./algorithm/isomorphicStrings.md)
 
 
