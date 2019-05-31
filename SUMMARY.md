@@ -20,10 +20,16 @@
     * [2019-05-17](./week/2019-05-17.md)
 * [零散的知识点](README.md)
     * [关于promise](./tech/promise.md)
+* [好书](README.md)
+    * [node相关](./books/node.md)
+    * [linux相关](./books/linux.md)
 * [algorithm](./algorithm/readme.md)
     * [[简单]sortedToBST](./algorithm/sortedToBST.md)
     * [[简单]countAndSay](./algorithm/countAndSay.md)
     * [[简单]happyNumber](./algorithm/happyNumber.md)
     * [[简单]isomorphicStrings](./algorithm/isomorphicStrings.md)
+    * [[简单]containsDuplicate_I](./algorithm/containsDuplicate_I)
+    * [[简单]containsDuplicate_I](./algorithm/containsDuplicate_Ⅱ)
+    * [[简单*]Implement Stack using Queues.md](./algorithm/implementStackUsingQueues.md)
 
 
