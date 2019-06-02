@@ -10,7 +10,7 @@ const sortedToBST = arr => {
         node.right = proc(m + 1, r);
         return node;
     };
-    
+
     return proc(0, arr.length - 1);
 };
 
