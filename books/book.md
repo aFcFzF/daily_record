@@ -5,7 +5,9 @@
 #### js：
 - 《JavaScript 高级程序设计》zakas  注：15-19章、22-25 可先不看。结合下面培训班视频也好。
 
-- 培训班视频 https://pan.baidu.com/s/1krc_9J3pPvI2u1wEw0jDyg  密码:ivwc
+- 培训班视频 https://pan.baidu.com/s/1krc_9J3pPvI2u1wEw0jDyg  提取码:ivwc
+
+- vue&webpack视频： 链接: https://pan.baidu.com/s/14NcIRgMiyPM9ZePTbDribA 提取码: 8vfq
 
 - 前端相关知识搜索
  https://developer.mozilla.org/zh-CN/
