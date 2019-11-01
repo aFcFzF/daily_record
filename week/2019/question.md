@@ -7,6 +7,7 @@
 **思路1：** messages + dispatch  // 子组件给父组件发消息进行通信。`问题： 不支持slot，无法实现自定义组件组合，失去扩展性`
 
 - 希望这样：
+
 ![图片](https://agroup-bos.cdn.bcebos.com/54142bff41f01f5111e28cddbc05fe6768f497b2)
 
 - 结果只能这样(通过type去控制样式和结构，不可配置自定义扩展)：
