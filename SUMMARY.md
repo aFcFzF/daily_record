@@ -19,6 +19,8 @@
     * [2019-05-09](./week/2019-05-09.md)
     * [2019-05-17](./week/2019-05-17.md)
     * [question](./week/2019/question.md)
+* [题](./question/README.md)
+    * [shell](./question/shell.md)
 * [零散的知识点](README.md)
     * [关于promise](./tech/promise.md)
 * [好书](README.md)
