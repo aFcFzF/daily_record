@@ -19,7 +19,7 @@
     * [2019-05-09](./week/2019/2019-05-09.md)
     * [2019-05-17](./week/2019/2019-05-17.md)
     * [question](./week/2019/question.md)
-    * [appointment](./week/2019/question/appointment.md)
+    * [appointment](./question/appointment.md)
 * [题](./question/README.md)
     * [shell](./question/shell.md)
 * [零散的知识点](README.md)
