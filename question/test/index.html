@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+<div>计数器: <span class="counter"></span></div>
+<script>
+const worker = new Worker('/worker/child.js');
+worker.terminate();
+worker.onmessage = e => {
+    console.log('我是主线程，我收到了信息: ', e.data);
+};
+worker.postMessage({msg: 'hello workd'});
+worker.postMessage({msg: '第二条信息'});
+</script>
+</body>
+</html>
