@@ -108,9 +108,11 @@ console.log('script end');
 1. 小程序为什么可以用类vue
 2. react和vue有啥场景，为啥
 3. 看政务小程序问组件
-4. ts特性、除了约束还有什么
-5. 小程序如何实现的，为啥要master-slaver 这种，你是如何实现单测的，gulp你是怎么配的，为什么要用gulp，pipe说下
-4. 以后想做什么
+5. debounce 性能问题，lodash是怎么做的
+6. 写xhr，之后问了简单/复杂请求、跨域cookie、http-only、server-request、csp。。。
+7. ts特性、除了约束还有什么
+8. 小程序如何实现的，为啥要master-slaver 这种，你是如何实现单测的，gulp你是怎么配的，为什么要用gulp，pipe说下
+9. 以后想做什么
 
 ### 三面
 业务多些：做小程序最大的困难是什么；你的缺点是什么；你解决了什么；如何管理项目
