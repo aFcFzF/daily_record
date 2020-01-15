@@ -58,7 +58,7 @@ console.log('script end');
 ...
 
 ### 三面
-1. 如下图，界面有3个小球A、B、C，A先移动，两秒走到和B相切，然后B开始移动，走到C相切，然后C移出去。
+1. 【编程】如下图，界面有3个小球A、B、C，A先移动，两秒走到和B相切，然后B开始移动，走到C相切，然后C移出去。
     - 如何保证一定相切后，下个小球才移动
     - 如果不能用transition呢
     - 你的定位都是左上角吧，如何调整坐标基准
@@ -66,7 +66,7 @@ console.log('script end');
     - 如何保证时间，手机电池都可能影响时间
 ![](2020-01-13-23-08-16.png)
 
-2. 给你一个dom字符串，解析属性，生成ast
+2. 【编程 解析jsx】给你一个dom字符串，解析属性，生成ast
 3. 忘了。。一些小题
 
 
@@ -118,4 +118,35 @@ console.log('script end');
 业务多些：做小程序最大的困难是什么；你的缺点是什么；你解决了什么；如何管理项目
 
 
+## didi:
+### 笔试
+#### 简答部分
+1. css position5个值
+2. height inherit 和 100%啥区别
+3. 类实现DOM增删改查
+4. 长连接
+5. esm require/exports/module.exports 区别，能说说原理吗
+6. process.nextTick / setImmediate / setTimeout / Promise.resolve 顺序题
+
+#### 编程部分
+1. 给一个url数组，用js异步并发请求，然后顺序输出结果
+2. 实现简易模板引擎
+``` js
+const tpl = (template, data) {
+
+};
+
+tpl('<div class="{%className%}">{%name%}</div>', {name: '123', className: 'didi'});
+
+// <div class="didi">123</div>
+```
+3. 创建两元素A和B, 距离100px, B绕A匀速旋转。
+4. 镜像二叉树
+
+### 一面
+1. position
+    - sticky 兼容性问题，如何自己实现，有什么问题
+    - 层级样式上下文怎么回事，给你一个 absolute，再插入一个relative，哪个在上面
+
+2. 
 
