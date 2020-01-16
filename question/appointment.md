@@ -87,7 +87,7 @@ console.log('script end');
 3. es6 说下
 4. ts泛型
 5. webpack
-    - tree shaking
+    - tree shaking, 我猜他想问vue-next onMounted优化，但没什么了解- -！
     - 性能优化
     - definePlugin
     - 多入口
