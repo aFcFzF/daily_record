@@ -104,4 +104,4 @@ asyncExec(fn).then(console.log);
 
 
 ### Task never defined: [object Object]
-gulp提示这个，肯定是因为哪个series方法没写多
+gulp提示这个，肯定是因为哪个series方法没写对
