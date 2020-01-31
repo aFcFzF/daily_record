@@ -1,5 +1,5 @@
 # record
-## b:
+## byte dance:
 ### 笔试：
 1. 【简答】cdn原理及优化
 2. 【简答】正则校验邮箱
@@ -70,7 +70,7 @@ console.log('script end');
 3. 忘了。。一些小题
 
 
-## t
+## tencent
 ### 一面
 1. 模块化：
     - 答： amd、cjs、esm、ts system；
@@ -111,14 +111,14 @@ console.log('script end');
 5. debounce 性能问题，lodash是怎么做的
 6. 写xhr，之后问了简单/复杂请求、跨域cookie、http-only、server-request、csp。。。
 7. ts特性、除了约束还有什么
-8. 小程序如何实现的，为啥要master-slaver 这种，你是如何实现单测的，gulp你是怎么配的，为什么要用gulp，pipe说下
+8. 小程序如何实现的，为啥要master-slaver 这种，你是如何实现单测的，gulp你是怎么配的，为什么要用gulp，pipe、steam简单说下
 9. 以后想做什么
 
 ### 三面
 业务多些：做小程序最大的困难是什么；你的缺点是什么；你解决了什么；如何管理项目
 
 
-## d:
+## didi:
 ### 笔试
 #### 简答部分
 1. css position5个值
@@ -150,7 +150,7 @@ tpl('<div class="{%className%}">{%name%}</div>', {name: '123', className: 'didi'
 
 2. ...
 
-## shui
+## gen shui xue
 ### 1面
 1. 自我介绍
 2. 说下es6数组特性。存在哪？连续的？和啥有区别？arrayLike？gc？实现过吗？
