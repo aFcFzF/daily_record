@@ -78,14 +78,18 @@ console.log('script end');
     - ts如何兼容esm 和 cjs
     - esm里面const，作用域
     - 浏览器顶层对象一定是window吗？
-    - 【编程】简单实现一下amd吧
+    - esm 能实现吗？
+    - 【编程】那你简单实现一下amd吧
 
 2. http2
     - 有多少特性你知道
-    - 一定要ssl吗
+    - 兼容性？
+    - 几次握手？
+    - 一定要ssl吗？
+    - 要关注下协议
 
 3. es6 说下
-4. ts泛型
+4. ts泛型、联合类型、module namespace
 5. webpack
     - tree shaking, 我猜他想问vue-next onMounted优化，但没什么了解- -！
     - 性能优化
@@ -101,8 +105,8 @@ console.log('script end');
     - vuex，namespaced，mutation和action区别
 
 7. 算法：给一个数组，生成可能的bst
-8. canvas、webgl 相关，不咋会
-9. 性能这块，有什么想法
+8. canvas、webgl，图形算法相关。没接触过
+9. 性能这块，有什么想法，wasm了解吗？能用c++写node 模块吗
 
 ### 二面
 1. 小程序为什么可以用类vue
@@ -111,7 +115,7 @@ console.log('script end');
 5. debounce 性能问题，lodash是怎么做的
 6. 写xhr，之后问了简单/复杂请求、跨域cookie、http-only、server-request、csp。。。
 7. ts特性、除了约束还有什么
-8. 小程序如何实现的，为啥要master-slaver 这种，你是如何实现单测的，gulp你是怎么配的，为什么要用gulp，pipe、steam简单说下
+8. 小程序如何实现的，为啥要master-slaver 这种，你是如何实现单测的，gulp你是怎么配的，为什么要用gulp，pipe、stream简单说下
 9. 以后想做什么
 
 ### 三面
