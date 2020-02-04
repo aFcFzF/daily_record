@@ -168,7 +168,6 @@ tpl('<div class="{%className%}">{%name%}</div>', {name: '123', className: 'didi'
     - 流比报文好在哪，啥时候用报文，啥时候用哪个流
     - 。。。
 3. node你有线上例子吗？有数据处理的吗？
-4. 那没有只好问一些基础的
 【编程】写一个oo的双工流场景
 5. 那你为什么不用transform实现你的cli呢？
 6. electron会吗？
