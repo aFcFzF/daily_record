@@ -64,5 +64,29 @@ export default function buildURL(url: string, params?: any, serializer?: Functio
     result = result.slice(1);
     return `${url}${result ? join : ''}${result}`;
 }
-
 ```
+
+## 复习要点
+1. jsx: preserve、react、react-native 都啥区别；vue render和react啥区别
+2. 如何编译出cjs、esm都可用的模块
+3. 类型申明空间（3个）
+4. 变量申明空间
+5. null/undefined 默认能赋值吗
+6. 下面代码报错不?为什么
+``` ts
+const reverse = <T>(nums: T[]) => {
+    const result = [];
+    for (const val of nums) {
+        result.unshift(val);
+    }
+    return result;
+};
+console.log('val', reverse(['1', '2', '3']));
+```
+7. 写一个extend（交叉类型）
+8. 什么是元组
+9. 引一个非 脚本类型,比如 import './style.css'; 如何避免报错?
+10. implements 怎么用，是接口 implements 接口吗
+11. 函数的2种申明方式？当想用重载要选哪种方式呢?
+
+![](2020-03-16-02-35-41.png)
