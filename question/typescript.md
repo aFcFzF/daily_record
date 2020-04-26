@@ -90,3 +90,11 @@ console.log('val', reverse(['1', '2', '3']));
 11. 函数的2种申明方式？当想用重载要选哪种方式呢?
 
 ![](2020-03-16-02-35-41.png)
+
+12. input 事件如何处理
+``` ts
+const inputHandler = useCallback(
+    ({target}: Html & {target: HTMLInputElement}) => setInputVal(target.value),
+    []
+);
+```
