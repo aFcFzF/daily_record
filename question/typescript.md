@@ -98,3 +98,41 @@ const inputHandler = useCallback(
     []
 );
 ```
+
+13. interface 和 type 异同？
+- 相同点
+    1. interface和type都可以描述 函数、类、对象
+    2. 都能扩展，前者extends；后者and
+
+- 不同点
+    1. type行: 申明基本类型、联合类型、元组
+    2. type行: 可以通过typeof获取实例类型
+    3. interface: 合并申明
+
+14. typeof怎么写
+``` ts
+export const SlideScaleMap: Record<keyof typeof SlideScaleType, number[]> = {
+
+};
+```
+
+15. 如何写一个includes的类型
+``` ts
+const includes = <T extends unknown[], K extends T[number]>(arr: T, member: K): boolean => {
+
+};
+
+includes(['1', 1], 2);
+```
+
+???
+``` ts
+    type KK<T, K extends keyof T> = {
+        [KKK in K]: T[KKK];
+    };
+
+    const includes = <T, K extends Array<keyof T>>(obj: T, member: K): obj is KK<T, K> => {
+        const keys = Object.keys(obj);
+        return keys.every(key => member.includes(key as keyof T));
+    };
+```
