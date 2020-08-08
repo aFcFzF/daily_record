@@ -37,3 +37,4 @@
 - 刷题： 牛客app 有前端测试题
 - 算法题： leetcode、codeWars
 - 前端文章：stackOverflow、 segmentFault、掘金 等
+- headFirst: https://www.gitbook.com/book/chenqianping/head-first-java
