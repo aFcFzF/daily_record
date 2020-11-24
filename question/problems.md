@@ -5,6 +5,7 @@
 |3|getContainer 之所以要嵌套，是因为子节点比父节点先mounted吗？|-|
 |4|sort 返回boolean 不行吗？交换和不交换|-|
 |5|![](2020-04-26-17-02-20.png)|-|
+|6|tsconfig-paths|-|
 
 ### 真可以解决eslint-unResolve
 ``` yaml
